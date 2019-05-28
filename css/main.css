@@ -5,9 +5,9 @@ VARIABLES
 :root {
   --color-white: #f4f4f4;
   --color-black: #090909;
-  --color-dark: #555;
+  --color-gray-dark: #555;
   --color-gray: #888;
-  --color-light: #bbb;
+  --color-gray-light: #bbb;
 
   --color-primary-light: #3f51b5;
   --color-primary: #303f9f;
@@ -22,6 +22,8 @@ RESETS
 body {
   background-color: var(--color-white);
   color: var(--color-gray);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  line-height: 1.4rem;
 }
 
 a {
@@ -62,10 +64,29 @@ header {
 h1,
 h2 {
   color: var(--color-white);
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
+h1 {
+  font-size: 2em;
+  /* 2* 16px = 32px */
+  font-weight: 300;
+  margin: 15px 0;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 1em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+/* NAVIGATION */
 nav {
   background-color: var(--color-primary-dark);
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
 }
 
 nav a:link,
@@ -87,3 +108,15 @@ nav a:active {
 /* **************************************************
 SECTION
 ************************************************** */
+
+
+
+/* **************************************************
+FOOTER
+************************************************** */
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+  color: var(--color-gray-light);
+}
