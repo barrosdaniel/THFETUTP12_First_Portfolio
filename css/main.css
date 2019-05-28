@@ -1,0 +1,89 @@
+/* **************************************************
+VARIABLES 
+************************************************** */
+/* COLORS */
+:root {
+  --color-white: #f4f4f4;
+  --color-black: #090909;
+  --color-dark: #555;
+  --color-gray: #888;
+  --color-light: #bbb;
+
+  --color-primary-light: #3f51b5;
+  --color-primary: #303f9f;
+  --color-primary-dark: #1a237e;
+}
+
+
+
+/* **************************************************
+RESETS 
+************************************************** */
+body {
+  background-color: var(--color-white);
+  color: var(--color-gray);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+/* **************************************************
+LAYOUT
+************************************************** */
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+
+
+/* **************************************************
+HEADING 
+************************************************** */
+header {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary-light);
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1,
+h2 {
+  color: var(--color-white);
+}
+
+nav {
+  background-color: var(--color-primary-dark);
+}
+
+nav a:link,
+nav a:visited {
+  color: var(--color-white);
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+  transition: 0.2s;
+}
+
+nav a.selected,
+nav a:hover,
+nav a:active {
+  border-bottom: 2px solid var(--color-white);
+}
+
+
+
+/* **************************************************
+SECTION
+************************************************** */
