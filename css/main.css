@@ -94,6 +94,10 @@ h2 {
   font-weight: normal;
 }
 
+h3 {
+  margin: 0 0 1rem 0;
+}
+
 /* NAVIGATION */
 nav {
   background-color: var(--color-primary-dark);
@@ -189,4 +193,49 @@ footer {
   text-align: center;
   padding-top: 50px;
   color: var(--color-gray-light);
+}
+
+
+
+/* **************************************************
+PAGE ABOUT
+************************************************** */
+.profile-photo-container {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.profile-photo {
+  display: block;
+  width: 100%;
+  transform: scale(1.6);
+}
+
+
+
+/* **************************************************
+PAGE CONTACT
+************************************************** */
+.contact-info {
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.contact-info li {
+  display: flex;
+  align-items: center;
+}
+
+.contact-info li a {
+  padding-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info li i {
+  margin-left: 0;
 }
