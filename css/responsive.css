@@ -1,4 +1,4 @@
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
   nav li {
     display: block;
     margin: .5rem 0;
@@ -24,6 +24,10 @@
   nav li a.selected {
     border-left: 2px solid var(--color-white);
     border-bottom: 2px solid transparent;
+  }
+
+  #gallery li {
+    width: 95%;
   }
 
 }
@@ -75,14 +79,14 @@
     font-size: 1.125rem;
     margin-right: 5%;
     text-align: right;
-    width: 45%;
+    width: 55%;
   }
 
   #logo {
     float: left;
     margin-left: 5%;
     text-align: left;
-    width: 45%;
+    width: 35%;
   }
 
   h1 {

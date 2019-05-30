@@ -127,7 +127,7 @@ nav li:not(:last-child) {
 nav a:link,
 nav a:visited {
   color: var(--color-white);
-  /* font-weight: 800; */
+  text-transform: uppercase;
   letter-spacing: 2px;
   padding: 6px;
   border-bottom: 2px solid transparent;
@@ -157,29 +157,29 @@ GALLERY SECTION
   background-color: var(--color-gray-lighter);
 }
 
-#gallery figure {
+#gallery .card {
   margin: 0;
   box-shadow: var(--box-shadow);
 }
 
-#gallery figcaption {
+#gallery .card-body {
   text-align: center;
   margin: 0;
   font-size: 1.25rem;
 }
 
-#gallery figcaption a:link,
-#gallery figcaption a:visited {
+#gallery .card-body a:link,
+#gallery .card-body a:visited {
   color: var(--color-gray);
   transition: 0.2s;
 }
 
-#gallery figcaption a:hover,
-#gallery figcaption a:active {
+#gallery .card-body a:hover,
+#gallery .card-body a:active {
   color: var(--color-gray-dark);
 }
 
-#gallery figcaption i {
+#gallery .card-body i {
   font-size: 3rem;
 }
 
